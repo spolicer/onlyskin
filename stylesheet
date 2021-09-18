@@ -1,0 +1,132 @@
+.OnlySkin {
+background-color:#F2F2F2;
+width:400px;
+border-radius:10px;
+box-shadow:#ccc 2px 2px 6px;
+margin:30px auto;
+position: relative;
+
+}
+
+
+.os-Head {
+background-image:url(https://i.pinimg.com/originals/7e/e6/cf/7ee6cf8b26cad7ef5df301f2aebc8bee.gif);
+background-position:center center;
+-webkit-filter:grayscale(40%);
+border-radius:10px 10px 0 0;
+height:175px;
+-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+clip-path: polygon(0 0, 100% 0, 100% 75%, 0 60%);
+
+
+}
+
+.os-Date{ 
+font-family: 'Poppins';
+color: #F2F2F2;
+ text-outline: 1px solid #F2F2F2;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #F2F2F2;
+  font-size: 35px;
+  line-height: 35px;
+  float: left;
+  padding-left: 5px;
+  padding-top: 45px;
+ mix-blend-mode: overlay;
+}
+
+.os-Icon {
+position: absolute;
+left: 150px;
+top: 60px;
+border:#F2F2F2 5px solid;
+background-color: #F2F2F2;
+border-radius: 100%;
+}
+
+.os-Icon IMG {
+width: 100px;
+border-radius: 100%;
+}
+
+
+.os-Body {
+padding: 0px 50px 10px 50px;
+text-align:justify;
+color:#3a3a3a;
+font-family:'poppins', sans-serif;
+font-size:14px;
+font-weight:400;
+line-height:22px;
+
+}
+
+.os-Body b { 
+  color: var(--main);
+font-family: 'Montserrat';
+font-weight: 600;
+font-size: 15px;
+}
+
+.os-Body i {
+   font-family: 'Montserrat';
+  border-bottom: 2px solid var(--accent);
+  font-weight:bold;
+text-decoration:none; 
+}
+
+.os-footnotes {
+  padding-bottom: 25px;
+  padding-left: 35px;
+  font:400 12px 'Montserrat';
+  text-align:justify;
+  color:#6a6a6a;
+}
+  
+.os-footnotes a {
+  font:800 12px 'Montserrat';
+  text-align:justify;
+color: var(--main);
+text-decoration: none;
+padding: 5px;
+margin-left: 15px;
+border-radius: 100px;
+  }
+
+.os-footnotes a:before {
+  content:'#';
+  color: var(--accent);
+
+}
+.os-footer {
+    overflow: hidden;
+    padding: 18px;
+    height: 40px;
+     background-image:url(https://i.pinimg.com/originals/7e/e6/cf/7ee6cf8b26cad7ef5df301f2aebc8bee.gif);
+background-position:center center;
+-webkit-filter:grayscale(50%);
+    border-color: #e5e5e5;
+border-radius: 0px 0px 10px 10px;
+}
+
+.whitenoizOverlay {
+	font-size: 85px;
+	position: absolute;
+	left: 9px;
+	bottom: -10px;
+	color: #F2F2F2;
+ mix-blend-mode: overlay;
+		padding: 7px;
+		
+
+ 
+}
+
+
+.OnlySkin hr{ 
+ background: #dadada;
+    border: 0px;
+    display: block;
+    height: 1px;
+    margin: 25px 5px 15px;
+    
